@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		641E8F4227AE843F00FE459C /* GardenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E8F4127AE843F00FE459C /* GardenViewController.swift */; };
+		641E8F4427AE845400FE459C /* FlowerShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E8F4327AE845400FE459C /* FlowerShopViewController.swift */; };
+		641E8F4627AEBCF000FE459C /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E8F4527AEBCF000FE459C /* Questions.swift */; };
 		646DEC9F27AB969700452E50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646DEC9E27AB969700452E50 /* AppDelegate.swift */; };
 		646DECA127AB969700452E50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646DECA027AB969700452E50 /* SceneDelegate.swift */; };
 		646DECA327AB969700452E50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646DECA227AB969700452E50 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		641E8F4127AE843F00FE459C /* GardenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenViewController.swift; sourceTree = "<group>"; };
+		641E8F4327AE845400FE459C /* FlowerShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerShopViewController.swift; sourceTree = "<group>"; };
+		641E8F4527AEBCF000FE459C /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		646DEC9B27AB969700452E50 /* guessVocabularies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guessVocabularies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		646DEC9E27AB969700452E50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		646DECA027AB969700452E50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +46,7 @@
 		646DEC9227AB969700452E50 = {
 			isa = PBXGroup;
 			children = (
+				641E8F4527AEBCF000FE459C /* Questions.swift */,
 				646DEC9D27AB969700452E50 /* guessVocabularies */,
 				646DEC9C27AB969700452E50 /* Products */,
 			);
@@ -59,6 +66,8 @@
 				646DEC9E27AB969700452E50 /* AppDelegate.swift */,
 				646DECA027AB969700452E50 /* SceneDelegate.swift */,
 				646DECA227AB969700452E50 /* ViewController.swift */,
+				641E8F4127AE843F00FE459C /* GardenViewController.swift */,
+				641E8F4327AE845400FE459C /* FlowerShopViewController.swift */,
 				646DECA427AB969700452E50 /* Main.storyboard */,
 				646DECA727AB969700452E50 /* Assets.xcassets */,
 				646DECA927AB969700452E50 /* LaunchScreen.storyboard */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				646DECA327AB969700452E50 /* ViewController.swift in Sources */,
+				641E8F4227AE843F00FE459C /* GardenViewController.swift in Sources */,
 				646DEC9F27AB969700452E50 /* AppDelegate.swift in Sources */,
+				641E8F4627AEBCF000FE459C /* Questions.swift in Sources */,
+				641E8F4427AE845400FE459C /* FlowerShopViewController.swift in Sources */,
 				646DECA127AB969700452E50 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
